@@ -1,0 +1,16 @@
+==============MENOR SOLUÇÃO==============
+import math
+
+a = float(input(print('Digite um número: ')))
+
+print('Parte inteira: {}\nParte fracionária: {}'.format(math.trunc(a), a - math.trunc(a)))
+
+==============OUTRA SOLUÇÃO==============
+import math
+
+a = float(input(print('Digite um número: ')))
+
+parte_inteira = math.trunc(a)
+parte_fracionária = a - math.trunc(a)
+
+print('Parte inteira: {}\nParte fracionária: {}'.format(parte_inteira, parte_fracionária))
