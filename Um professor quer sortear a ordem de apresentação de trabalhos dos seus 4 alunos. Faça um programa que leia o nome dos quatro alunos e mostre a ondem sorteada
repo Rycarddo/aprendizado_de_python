@@ -1,0 +1,12 @@
+import random
+n1 = input('Pessoa 1: ')
+n2 = input('Pessoa 2: ')
+n3 = input('Pessoa 3: ')
+n4 = input('Pessoa 4: ')
+n5 = input('Pessoa 5: ')
+
+a = [n1, n2, n3, n4, n5]
+
+random.shuffle(a)
+
+print('Ordem de apresentação: {}'.format(a))
