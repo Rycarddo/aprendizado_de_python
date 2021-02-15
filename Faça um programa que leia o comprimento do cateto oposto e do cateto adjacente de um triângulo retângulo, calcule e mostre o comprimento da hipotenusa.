@@ -1,0 +1,19 @@
+import math
+
+b = float(input(print('Digite o valor do primeiro cateto: ')))
+c = float(input(print('Digite o valor do segundo cateto: ')))
+
+a = math.hypot(b,c)
+
+print('O valor da hipotenusa é: {:.2f}'.format(a))
+
+
+===============Segunda Solução===============
+import math
+
+b = float(input(print('Digite o valor do primeiro cateto: ')))
+c = float(input(print('Digite o valor do segundo cateto: ')))
+
+a = math.sqrt(b*b+c*c)
+
+print('O valor da hipotenusa é: {:.2f}'.format(a))
