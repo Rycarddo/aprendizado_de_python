@@ -1,0 +1,8 @@
+import math
+x = float(input('Digite o valor do ângulo: '))
+
+seno = math.sin(x)
+cos = math.cos(x)
+tan = math.tan(x)
+
+print('Sen: {}\nCos: {}\nTan: {}'.format(seno,cos,tan))
